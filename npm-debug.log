@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.2.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.9.3
+3 info using node@v6.2.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/budao/weex-plugins/weex-plugin-chart',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/budao/.npm/weex-plugin-weex-chart/0.1.8/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/budao/.npm correctMkdir not in flight; initializing
+10 info lifecycle weex-plugin-weex-chart@0.1.8~prepublish: weex-plugin-weex-chart@0.1.8
+11 silly lifecycle weex-plugin-weex-chart@0.1.8~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/budao/.npm/weex-plugin-weex-chart/0.1.8/package.tgz',
+12 verbose tar pack   '/Users/budao/weex-plugins/weex-plugin-chart' ]
+13 verbose tarball /Users/budao/.npm/weex-plugin-weex-chart/0.1.8/package.tgz
+14 verbose folder /Users/budao/weex-plugins/weex-plugin-chart
+15 verbose addLocalTarball adding from inside cache /Users/budao/.npm/weex-plugin-weex-chart/0.1.8/package.tgz
+16 verbose correctMkdir /Users/budao/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd weex-plugin-weex-chart@0.1.8
+18 verbose afterAdd /Users/budao/.npm/weex-plugin-weex-chart/0.1.8/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/budao/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/budao/.npm/weex-plugin-weex-chart/0.1.8/package/package.json written
+21 silly publish { version: '0.1.8',
+21 silly publish   platform: [ 'ios', 'android' ],
+21 silly publish   description: '目前图表项目目录已经正式变成weexpack plugin   使用需要 weexpack plugin add weex-chart',
+21 silly publish   keywords: [ 'weex', 'plugin' ],
+21 silly publish   license: 'Apache 2.0',
+21 silly publish   name: 'weex-plugin-weex-chart',
+21 silly publish   readme: '# 如何使用\n目前图表项目目录已经正式变成weexpack plugin  \n使用需要 weexpack plugin add weex-chart  \n\n# demo\n请使用 tnpm install -g weex-chart-demo  \n然后运行weex-chart-demo   \n然后用包含gcanvas的app 扫描二维码即可 ',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   gitHead: 'ccfe5e8c63e8fdd0fe0a9cb848c879795ef16d11',
+21 silly publish   _id: 'weex-plugin-weex-chart@0.1.8',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: '8515ef1646271c1ccc724000fd3cccfd22bd3614',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name weex-plugin-weex-chart
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'weex-plugin-weex-chart',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'weex-plugin-weex-chart',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/weex-plugin-weex-chart
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/budao/.npm/weex-plugin-weex-chart/0.1.8/package.tgz
+30 verbose request uri https://registry.npmjs.org/weex-plugin-weex-chart
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 14:44:04
+33 verbose request using bearer token for auth
+34 verbose request id 71cd9a3268e927d4
+35 http request PUT https://registry.npmjs.org/weex-plugin-weex-chart
+36 http 403 https://registry.npmjs.org/weex-plugin-weex-chart
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '116',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 11 Jan 2017 06:44:07 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-nrt6120-NRT',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1484117047.609871,VS0,VE293',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/budao/.npm/registry.npmjs.org/weex-plugin-weex-chart on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: you do not have permission to publish "weex-plugin-weex-chart". Are you logged in as the correct user? : weex-plugin-weex-chart
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+40 verbose stack     at emitOne (events.js:101:20)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+41 verbose statusCode 403
+42 verbose pkgid weex-plugin-weex-chart
+43 verbose cwd /Users/budao/weex-plugins/weex-plugin-chart
+44 error Darwin 16.1.0
+45 error argv "/usr/local/Cellar/node/6.2.1/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.2.1
+47 error npm  v3.9.3
+48 error code E403
+49 error you do not have permission to publish "weex-plugin-weex-chart". Are you logged in as the correct user? : weex-plugin-weex-chart
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
