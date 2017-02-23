@@ -23,7 +23,7 @@ weexpack plugin add weex-chart （会检测到依赖插件并自动添加）
 
 5.编译和运行demo
 
-把demo文件（在目录plugins/weex-chart/examples/下的所有文件）拷贝到项目工程aaa/src下，然后：
+把demo文件（位于本repo的 examples/下的所有文件 你可以clone一下）拷贝到项目工程目录的src下，然后：
 
 然后使用命令：weexpack run ios (android) 可在模拟器或者device上运行
 
