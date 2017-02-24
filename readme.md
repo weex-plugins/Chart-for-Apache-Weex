@@ -55,4 +55,5 @@ G2-mobile语法请参照
  如果您发现有别的特性或者api 无法支持 或者支持不好 请提交issue 谢谢
 
 
-
+# changelog
+支持weex sdk 0.10.0

@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="weex-chart"
-    version="0.1.8">
+    version="0.2.0">
     <name>weex-chart</name>
     <description></description>
     <license>Apache 2.0</license>

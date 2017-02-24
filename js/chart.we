@@ -17,7 +17,7 @@
             CanvasElement.reset();
         },
         ready: function () {
-            CanvasElement.init('wxc_gcanvas', this.$el('wxc_gcanvas')).then(function (context) {
+            CanvasElement.init(this.$el('wxc_gcanvas') ).then(function (context) {
                 Chart.ready(context);
             });
         }
