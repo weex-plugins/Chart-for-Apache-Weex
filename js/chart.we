@@ -2,7 +2,7 @@
 * Created by godsong on 16/11/3.
 */
 <template>
-    <gcanvas id="wxc_gcanvas" style="width:{{width}};height:{{height}};backgroundColor:#ffffff"></gcanvas>
+    <gcanvas id="wxc_gcanvas" style="width:{{width}};height:{{height}};background-color:#ffffff"></gcanvas>
 </template>
 <script>
     var CanvasElement = require('./CanvasElement');
