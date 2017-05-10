@@ -1,6 +1,6 @@
 {
   "name": "weex-chart",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "chart component for weex",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "g2-mobile": "2.1.13-beta"
+    "g2-mobile": "2.1.13-beta",
+    "weex-gcavas": "^0.3.8"
   }
 }
