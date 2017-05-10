@@ -1,6 +1,6 @@
 {
   "name": "weex-chart",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "chart component for weex",
   "main": "index.js",
   "scripts": {
