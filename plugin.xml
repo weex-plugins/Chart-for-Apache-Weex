@@ -20,14 +20,13 @@
 
 <plugin xmlns="http://www.w3.org/ns/widgets"
     id="weex-chart"
-    version="0.2.9">
+    version="0.3.1">
     <name>weex-chart</name>
     <description>A chart component for weex</description>
     <license>Apache 2.0</license>
     <keywords>weex,plugin</keywords>
     <repo>https://*.git</repo>
     <issue>https://*</issue>
-    <dependency id="weex-gcanvas" version="0.3.8" />
      <!-- ios -->
      <platform name="ios">
 
